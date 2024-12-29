@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* Align items vertically */
+  align-items: flex-start;
+  /* Align items to the left */
+  justify-content: flex-start;
+  /* Align items to the top */
+  min-width: 320px;
+  min-height: calc(100vh - 86px);
+  /* Subtract the height of the navbar */
+  margin-top: 84px;
+  /* Ensure body content starts below the navbar */
+}
